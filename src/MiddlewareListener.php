@@ -8,7 +8,7 @@
 namespace Zend\Mvc;
 
 use Interop\Container\ContainerInterface;
-use Interop\Http\ServerMiddleware\MiddlewareInterface;
+use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface as PsrServerRequestInterface;
